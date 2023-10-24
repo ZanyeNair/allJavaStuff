@@ -14,9 +14,9 @@ public class taskTester{
             boolean c = true;
             while (c == true) {
                 try{
-                    a = in.nextInt();
+                    
                     if(in.hasNextInt()){
-                        if (a>4){
+                        if (in.hasNextInt()){
                             System.out.println("Use a valid value");
                         }
                         else{
