@@ -25,6 +25,10 @@ public class Task {
     toDo.add("2. Look at task for a day");
     toDo.add("3. Add task");
     toDo.add("4. Remove task");
+    toDo.add("1. Look at all task");
+    toDo.add("2. Look at task for a day");
+    toDo.add("3. Add task");
+    toDo.add("4. Remove task");
 
   }
   public void toDos(){
