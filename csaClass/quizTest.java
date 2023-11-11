@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class quizTest{
+public class QuizTest{
     private int[] name;
     public int[] vale(){
         ArrayList<Integer> ne = new ArrayList<Integer>();

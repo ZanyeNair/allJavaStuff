@@ -1,8 +1,7 @@
-package Personal%20Stuff;
 
-public class quiz{
+public class Task{
     public static void main(String[] args) {
-        quizTest nes = new quizTest();
+        QuizTest nes = new QuizTest();
         System.out.println(nes.vale());
     }
 }
