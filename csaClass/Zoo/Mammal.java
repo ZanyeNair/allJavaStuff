@@ -2,5 +2,10 @@ package Zoo;
 
 public class Mammal extends Bird {
 
-    public Mammal(){}
+    String name;
+    int age;
+    public Mammal(String aname, int aage){
+        name = aname;
+        age = aage;
+    }
 }

@@ -1,8 +1,8 @@
 package Zoo;
 
 public class Bird {
-    String name
-    public class Bird(String name, int age, String featherColor){
-
+    String name;
+    public Bird(String name, int age, String featherColor){
+        super(name, age);
     }
 }
