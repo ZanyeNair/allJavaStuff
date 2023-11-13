@@ -60,7 +60,7 @@ class Volvo extends Car{
 
 class Tester{
     public static void main(String[] args) {
-        Volvo v = new Volvo(2017, "Orange", 4, "Mazarato")
+        Volvo v = new Volvo(2017, "Orange", 4, "Mazarato");
         System.out.println(v.getName());
         System.out.println(v.getSeats());
     }
