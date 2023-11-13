@@ -4,18 +4,18 @@ import java.util.ArrayList;
 
 public class Animal{
 
-    ArrayList<String> names = new ArrayList<String>();
+    private ArrayList<String> nameo = new ArrayList<String>();
     public Animal (){}
-    public Animal(ArrayList<String> list){
-        for(String name : list){
-            names.add(name);
-        }
+    public Animal(String name){
+
+        nameo.add(name);
+
 
     }
     public void addName(String name){
-        names.add(name);
+        nameo.add(name);
     }
-    public String sound(){
+    public String sing(){
         return "Animal sound";
     }
     

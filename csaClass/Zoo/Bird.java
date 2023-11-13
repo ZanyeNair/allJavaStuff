@@ -1,9 +1,9 @@
 package Zoo;
 
 public class Bird extends Mammal{
-    String name;
-    int age;
-    String featherColor;
+    private String name;
+    private int age;
+    private String featherColor;
     public Bird(String name, int age, String featherColor){
         super(name, age);
         this.featherColor = featherColor;
@@ -16,7 +16,7 @@ public class Bird extends Mammal{
     }
 
     @Override
-    public String sound(){
+    public String sing(){
         return "Bird sound";
     }
 }

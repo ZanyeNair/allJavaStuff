@@ -10,9 +10,9 @@ public class AniamlTester {
         Bird b = new Bird("Tweety", 2, "Yellow");
         Animal a = new Animal();
         AniamlTester t = new AniamlTester();
-        System.out.println(m.sound());
-        System.out.println(b.sound());
-        System.out.println(a.sound());
+        System.out.println(m.sing());
+        System.out.println(b.sing());
+        System.out.println(a.sing());
     }
 
 

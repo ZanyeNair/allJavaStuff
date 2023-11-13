@@ -4,33 +4,33 @@ import java.util.ArrayList;
 
 public class Mammal extends Animal {
 
-    String name;
+    private String name;
     int age;
-    static ArrayList<String> n = new ArrayList<String>();
+    private ArrayList<String> n = new ArrayList<String>();
 
     public Mammal() {
-        super(n);
+        super();
         name = "No name yet";
         age = 0;
     }
     public Mammal(String name){
-        super(n);
+        super();
         this.name = name;
         age = 0;
-        names.add(name);
+        n.add(name);
         
     }
     public Mammal(String aname, int aage){
-        super(n);
+        super();
         name = aname;
         age = aage;
-        names.add(name);
+        n.add(name);
     }
     public void addName(String name){
-        names.add(name);
+        n.add(name);
     }
     @Override
-    public String sound(){
+    public String sing(){
         return "Mammal sound";
         
     }
