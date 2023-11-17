@@ -1,6 +1,14 @@
 package PersonalStuff;
 
-public class Patato {
+
+public class Main{
+    public static void main(String[] args) {
+        Patato x= new PatatoBuilder().addSourCream(11).addCheese(11).addSalsa(11).build();
+    }
+}
+
+
+ class Patato {
     int cheese;
     int sourcream;
     int salsa;
@@ -11,11 +19,7 @@ public class Patato {
 
 
 }
-class Main{
-    public static void main(String[] args) {
-        Patato x= new PatatoBuilder().addSourCream(11).addCheese(11).addSalsa(11).build();
-    }
-}
+
 class PatatoBuilder{
     int cheese;
     int sourcream;
