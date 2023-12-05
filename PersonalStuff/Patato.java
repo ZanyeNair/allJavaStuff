@@ -1,7 +1,7 @@
 package PersonalStuff;
 
 
-public class Main{
+public class Patato{
     public static void main(String[] args) {
         Patato x= new PatatoBuilder().addSourCream(11).addCheese(11).addSalsa(11).build();
     }
