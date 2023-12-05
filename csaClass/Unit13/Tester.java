@@ -2,7 +2,7 @@ package csaClass.Unit13;
 public class Tester {
 
     public static void main(String args[]) {
-        int[] n= {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        int[] n= {1, 2, 3, 5, 5, 6, 7, 8, 9};
         selectionFind s = new selectionFind();
         binarySearch b = new binarySearch();
 
@@ -26,28 +26,29 @@ public class Tester {
                 return sort(list, find);
             }
         }
-        static class binarySearch{
+    }
+    static class binarySearch{
 
-            public int bsort(int[] list, int search, int min, int max){
-                int middle = (list.length() /2);
+        public int bsort(int[] list, int search, int min, int max){
 
-                if(list[middle] == search){
-                    return middle;
-                }
-                else if(middle > max || middle < min){
-                    return -1;
+            int middle = ((min+max) /2);
+
+            if(list[middle] == search){
+                return middle;
+            }
+            else if(middle > max || middle < min){
+                return -1;
+            }
+            else{
+                if(search > list[middle] ){
+                    return bsort(list, search, middle+1, max);
                 }
                 else{
-                    if(search > list[middle] ){
-                        return bsort(list, search, middle+1, max);
-                    }
-                    else{
-                        return bsort(list, search, min, middle-1);
-                    }
+                    return bsort(list, search, min, middle-1);
                 }
             }
         }
     }
-
 }
+
 
