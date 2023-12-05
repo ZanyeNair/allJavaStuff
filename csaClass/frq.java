@@ -1,3 +1,5 @@
+package csaClass;
+
 public class frq {
     public static String scrambleWord(String word){
         String finaly = "";

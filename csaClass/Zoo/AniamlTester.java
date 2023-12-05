@@ -1,4 +1,4 @@
-package Zoo;
+package CSAZoo;
 
 public class AniamlTester {
     Mammal m = new Mammal();
